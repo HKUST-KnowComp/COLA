@@ -1,0 +1,15 @@
+model_path=bert-base-uncased
+output_dir=YOUR_OUTPUT_DIR
+data_path=./COPES_data/COPES.json
+crop=0
+cov_path=YOUR_COVARIATE_FILE_PATH
+inter_path=YOUR_INTERVENTION_FILE_PATH
+
+python get_temporal_scores.py \
+--data_path ${data_path} \
+--cov_path ${cov_path} \
+--inter_path ${inter_path} \
+--model_path ${model_path} \
+--output_dir ${output_dir} \
+--temporal_type cov-inter --cov_num 50 --inter_num 51 --batch_size 512 \
+--crop ${crop}
