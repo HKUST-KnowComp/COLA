@@ -1,7 +1,7 @@
-# COLA: Contextualized Commonsense Causality Reasoning from the Causal Inference Perspective
+# COLA: Contextualized Commonsense Causal Reasoning from the Causal Inference Perspective
 
 This repository is the official implementation of 
-[COLA: Contextualized Commonsense Causality Reasoning from the Causal Inference Perspective](). 
+[COLA: Contextualized Commonsense Causal Reasoning from the Causal Inference Perspective](). 
 
 The paper is accepted to the main conference of ACL 2023.
 
@@ -36,14 +36,14 @@ pip install -r requirements.txt
 
 ## Datasets
 ### Data for Temporal Predictor
-We extract a large dataset containing ~800K pairs of events and their temporal order from RocStories.
+We extract a large dataset containing 800K pairs of events and their temporal order from RocStories.
 You can download it here [download](https://hkustconnect-my.sharepoint.com/:f:/g/personal/zwanggy_connect_ust_hk/El2TUD1xc_5NtMIYas5RBLoBrC6dyFhBjIrl2xyHZzfpHg?e=MEV5hM)
 All licenses are subject to RocStories' original release.
 
 ### Choice of Plausible Event in Sequence (COPES)
 The contextualized commonsense causal reasoing dataset COPES is in the dir ```./COPES_data```. 
 
-## COLA Framework
+## Run COLA Framework
 Our COLA Framework owns a few steps to conduct inference.
 
 ### Step1: Fine-tune a Temporal Predictor with incidental supervision signals
