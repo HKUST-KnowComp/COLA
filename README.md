@@ -1,7 +1,7 @@
 # COLA: Contextualized Commonsense Causal Reasoning from the Causal Inference Perspective
 
 This repository is the official implementation of 
-[COLA: Contextualized Commonsense Causal Reasoning from the Causal Inference Perspective](). 
+[COLA: Contextualized Commonsense Causal Reasoning from the Causal Inference Perspective](https://arxiv.org/abs/2305.05191). 
 
 The paper is accepted to the main conference of ACL 2023.
 
